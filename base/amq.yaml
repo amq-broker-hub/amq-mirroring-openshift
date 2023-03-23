@@ -34,7 +34,7 @@ spec:
       autoCreateQueues: true
       autoCreateAddresses: true
       autoDeleteQueues: true
-      autoDeleteAddress: true
+      autoDeleteAddresses: true
       maxSizeBytes: 100Mb
     - match: DLQ
       maxSizeBytes: 20Mb
